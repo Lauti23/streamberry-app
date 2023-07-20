@@ -1,0 +1,50 @@
+.header {
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.form {
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form input {
+    padding: 5px;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.form button {
+    width: 30%;
+    padding: 5px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.form button:hover {
+    cursor: pointer;
+} 
+
+.checkbox {
+    width: 10%;
+}
+
+.loading {
+    text-align: center;
+}
+
+.error {
+    margin: 0 auto;
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    color: red;
+}

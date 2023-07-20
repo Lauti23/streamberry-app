@@ -1,0 +1,36 @@
+.movies {
+    color: white;
+    padding: 1rem;
+    list-style: none;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1rem;
+}
+
+.movie {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.movie img {
+    border-radius: 10px;
+}
+
+.movie h4 {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+
+.movie p {
+    padding: 10px;
+}
+
+.noMovies {
+    text-align: center;
+    color: white;
+}
